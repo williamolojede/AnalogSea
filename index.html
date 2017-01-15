@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Analog Sea</title>
+
+	<meta name="description" content="">
+
+	<link rel="stylesheet" type="text/css" href="assets/styles/index.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/styles/reset.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+</head>
+<body>
+	<div class="wrapper center">
+		<header class="header">
+			<div class="header--logo"></div>
+		</header>
+		<main class="container center">
+
+			<header>
+				<h1 class="header--title text-center">Sign Up</h1>
+			</header>
+			
+			<form class="form" method="post" action="/signup/">
+				<label for="usr-email" class="form--label block marg-top-bottom">Email</label>
+				<input id="usr-email" type="email" name="usr-email" class="form--input" placeholder="foo@bar.com" required>
+				
+				<label for="usr-pswd" class="form--label block marg-top-bottom">Password</label>
+				<input id="usr-pswd" type="password" name="usr-pswd" class="form--input" placeholder="1234passw0rd" required>
+
+				<button type="submit" class="form--submit marg-top-bottom txt-white">Sign up</button>
+				
+				<div class="form-forgot text-center">
+					<a href="/forgot-password/new" >Forgot Password?</a>
+				</div>
+				
+			</form>
+
+		</main>
+
+		<footer >
+			<p class="usr-login text-center txt-white">Already have an account? <a href="/login" class="txt-white">Log in</a></p>
+		</footer>
+	</div>
+</body>
+</html>

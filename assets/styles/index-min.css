@@ -96,7 +96,7 @@ body{
     /* position: fixed; */
     /* bottom: 25px; */
     /* left: 50%; */
-    margin-top: 300px;
+    margin-top: 40vh; /*Used vh so that its uniform across screen sizes*/
 
 }
 

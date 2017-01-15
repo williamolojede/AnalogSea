@@ -67,7 +67,14 @@ body{
 	background: #68C373;
 	font-size: 1.4em;
 	border-style: none;
+	transition: 0.1s ease-in background;
+	cursor: pointer;
 }
+
+.form--submit:hover{
+	background: #0CB863;
+}
+
 
 .form-forgot a{
 	color: #999;

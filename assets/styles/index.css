@@ -8,6 +8,9 @@ html {
 
 body{
 	background-color: #298EEA;
+	position: relative;
+	height: 100vh;
+	font-family: 'Roboto', sans-serif;
 }
 
 .marg-top-bottom{ margin: 1em 0; }
@@ -86,4 +89,25 @@ body{
 .usr-login a{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
+}
+
+.footer{
+    text-align: center;
+    /* position: fixed; */
+    /* bottom: 25px; */
+    /* left: 50%; */
+    margin-top: 300px;
+
+}
+
+.github-repo{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	text-decoration: none;
+	color: #ddd;
+	transition: 0.1s ease-in color;
+}
+
+.github-repo:hover{
+	color: #fff;
 }
